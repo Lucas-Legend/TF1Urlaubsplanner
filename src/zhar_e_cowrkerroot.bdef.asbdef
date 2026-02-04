@@ -1,9 +1,11 @@
 managed implementation in class zbp_har_e_cowrkerroot unique;
 strict ( 2 );
+with draft;
 
-define behavior for ZHAR_E_COwrkerRoot //alias <alias_name>
+define behavior for ZHAR_E_COwrkerRoot alias cowworker
 persistent table zhar_coworker
-lock master
+draft table zhar_draftworker
+lock master total etag Dayatime
 authorization master ( instance )
 etag master Dayatime
 {
@@ -11,4 +13,11 @@ etag master Dayatime
   update;
   delete;
   field ( readonly ) Dayatime;
+
+  draft action Resume;
+  draft action Edit;
+  draft action Discard;
+  draft action Activate;
+
+  draft determine action Prepare;
 }

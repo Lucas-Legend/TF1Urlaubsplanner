@@ -11,5 +11,6 @@ define root view entity ZHAR_I_projectionviewCoworker as projection on ZHAR_E_CO
     Ort,
     Strasse,
     Hausnummer,
-    Gehalt
+    Gehalt,
+    Adminrights
 }

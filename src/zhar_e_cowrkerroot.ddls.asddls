@@ -12,6 +12,7 @@ define root view entity ZHAR_E_COwrkerRoot as select from ZHAR_I_COWorkerView
     Ort,
     Strasse,
     Hausnummer,
-    Gehalt
+    Gehalt,
+    Adminrights
 //    _association_name // Make association public
 }

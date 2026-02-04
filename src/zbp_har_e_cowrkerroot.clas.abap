@@ -1,0 +1,5 @@
+CLASS zbp_har_e_cowrkerroot DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF zhar_e_cowrkerroot.
+ENDCLASS.
+
+CLASS zbp_har_e_cowrkerroot IMPLEMENTATION.
+ENDCLASS.

@@ -13,5 +13,6 @@ define view entity ZHAR_I_COWorkerView as select from zhar_coworker
     ort as Ort,
     strasse as Strasse,
     hausnummer as Hausnummer,
-    gehalt as Gehalt
+    gehalt as Gehalt,
+    adminright as Adminrights
 }
