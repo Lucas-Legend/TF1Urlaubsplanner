@@ -1,0 +1,4 @@
+@EndUserText.label: 'The Servicedefenition'
+define service ZHAR_S_Definitoncoworker {
+  expose ZHAR_I_projectionviewCoworker;
+}

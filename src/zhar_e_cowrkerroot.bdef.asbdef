@@ -1,0 +1,14 @@
+managed implementation in class zbp_har_e_cowrkerroot unique;
+strict ( 2 );
+
+define behavior for ZHAR_E_COwrkerRoot //alias <alias_name>
+persistent table zhar_coworker
+lock master
+authorization master ( instance )
+etag master Dayatime
+{
+  create ( authorization : global );
+  update;
+  delete;
+  field ( readonly ) Dayatime;
+}
